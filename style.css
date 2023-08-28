@@ -130,6 +130,33 @@
      width: 250px;
      border-radius: 15px;
  }
+ .get-deals-container{
+    background-image: url(/banner/Rectangle\ 9.png);
+    height: 30vh;
+    text-align: center;
+    margin: 25px 120px;
+    padding: 15px;
+    border-radius: 15px;
+ }
+ .mail-input{
+    height: 20px;
+    width: 500px;
+    border: none;
+    padding: 25px;
+    margin-top: 15px;
+    border-radius: 15px;
+ }
+ .mail-input-1{
+    height: 70px;
+    border: none;
+    padding: 25px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: rgb(29, 2, 7);
+    color: rgb(241, 11, 11);
+
+ }
+
 
  /* .box-1{
     height: 300px;
@@ -139,10 +166,7 @@
 
  /* inst-end */
  /* get deals-part start */
- .get-deals-container {
-     background-image: url(/Flower\ Asset/);
-     background-image: url(/Flower\ Asset/);
- }
+
 
 
  /* get-deals part end */
@@ -165,7 +189,11 @@
  .footer-copyright {
      margin-top: 50px;
      font: .7em sans-serif;
-     background-image: url(/);
  }
 
  /* footer part end */
+
+
+ .third-part-container{
+    background-image: url();
+ }
