@@ -1,0 +1,159 @@
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;800&family=Roboto:wght@300;400;700;900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ .header-container {
+     background-color: rgb(206, 163, 163);
+     height: 100vh;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0px 40px 0px 150px;
+ }
+
+ .banner-right-img {
+     width: 400px;
+     height: 500px;
+ }
+
+ .header-title {
+     font-size: xx-large;
+     font-weight: 900;
+     font: 3em sans-serif;
+     font-weight: bolder;
+     margin-bottom: 15px;
+
+ }
+
+ .btn-primary {
+     height: 40px;
+     width: 100px;
+     background-color: crimson;
+     color: white;
+     border: none;
+     margin-top: 10px;
+     border-radius: 5px;
+ }
+
+ /* header part end */
+
+
+ /* feature-part-start */
+ .feauture-heading {
+     text-align: center;
+     margin-top: 20px;
+ }
+
+ .fetured-part-container {
+     display: flex;
+     text-decoration: underline;
+     justify-content: space-around;
+     align-items: center;
+     text-align: center;
+     padding: 0 150px;
+ }
+
+ .box-img-1 {
+     width: 300px;
+     height: 450px;
+     border: none;
+     background-color: #e7c2c2;
+     border-top-right-radius: 160px;
+     border-top-left-radius: 160px;
+ }
+
+ .box-img-2 {
+     width: 300px;
+     height: 450px;
+     background-color: skyblue;
+     border-top-right-radius: 160px;
+     border-top-left-radius: 160px;
+ }
+
+ .box-img-3 {
+     width: 300px;
+     height: 450px;
+     background-color: rgb(127, 255, 249);
+     border-top-right-radius: 160px;
+     border-top-left-radius: 160px;
+ }
+
+ /* feature part-end */
+
+
+ /* icon-part start */
+ .icon-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+     background-color: gainsboro;
+     border-radius: 10px;
+     margin: 20px 150px;
+     padding: 75px;
+ }
+
+ /* icon-part-end */
+
+ /* hot-deal-part-start */
+ .hot-container {
+     background-color: rgb(243, 219, 219);
+     height: 70vh;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+     padding: 0px 40px 0px 150px;
+ }
+
+ .banner-right-img-1 {
+     width: 300px;
+     height: 300px;
+ }
+
+
+ /* hot-part-end */
+ /* insta-start */
+ .instragram-part-container {
+     display: flex;
+     justify-content: space-around;
+     gap: 15px;
+     padding: 30px 150px;
+ }
+ .box-img-5{
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+ }
+
+ /* .box-1{
+    height: 300px;
+    width: 200px;
+    border: 2px solid green;
+} */
+
+ /* inst-end */
+
+ /* footer part start */
+ .footer-container {
+     height: 40vh;
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 50px;
+ }
+
+ .footer-color {
+     color: crimson;
+ }
+
+ .footer-copyright {
+     margin-top: 50px;
+     font: .7em sans-serif;
+ }
+
+ /* footer part end */
