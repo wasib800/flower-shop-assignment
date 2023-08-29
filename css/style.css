@@ -5,39 +5,45 @@
      padding: 0;
      font-family: 'Poppins', sans-serif;
  }
- .nav-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    padding: 5px 120px;
-    background-color: rgb(2, 107, 2);
-    font: 1.2em sans-serif;
- }
- .right-nav,ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    list-style: none;
+
+ .nav-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+     padding: 5px 120px;
+     background-color: rgb(2, 107, 2);
+     font: 1.2em sans-serif;
  }
 
- li,a{
-   text-decoration: none;
-   margin: 10px;
-   color: white;
+ .right-nav,
+ ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     list-style: none;
  }
-.btn-log-primary{
-    height: 40px;
-    width: 100px;
-    background-color: crimson;
-    color: white;
-    border: none;
+
+ li,
+ a {
+     text-decoration: none;
+     margin: 10px;
+     color: white;
+ }
+
+ .btn-log-primary {
+     height: 40px;
+     width: 100px;
+     background-color: crimson;
+     color: white;
+     border: none;
      text-align: center;
      border-radius: 5px;
      font: 1em sans-serif;
      font-weight: bolder;
-}
+ }
+
  .header-container {
      background-color: rgb(206, 163, 163);
      height: 100vh;
@@ -90,31 +96,36 @@
      align-items: center;
      text-align: center;
      padding: 0 150px;
+     margin-top: 30px;
+     gap: 50px;
  }
 
+ .fetured-part-container,
+ img {}
+
  .box-img-1 {
-     width: 300px;
+     width: 330px;
      height: 450px;
      border: none;
-     background-color: #e7c2c2;
-     border-top-right-radius: 160px;
-     border-top-left-radius: 160px;
+     background-color: #5e2222;
+     border-top-right-radius: 150px;
+     border-top-left-radius: 150px;
  }
 
  .box-img-2 {
-     width: 300px;
+     width: 330px;
      height: 450px;
-     background-color: skyblue;
-     border-top-right-radius: 160px;
-     border-top-left-radius: 160px;
+     background-color: rgb(51, 43, 43);
+     border-top-right-radius: 150px;
+     border-top-left-radius: 150px;
  }
 
  .box-img-3 {
-     width: 300px;
+     width: 330px;
      height: 450px;
-     background-color: rgb(127, 255, 249);
-     border-top-right-radius: 160px;
-     border-top-left-radius: 160px;
+     background-color: rgb(86, 102, 101);
+     border-top-right-radius: 150px;
+     border-top-left-radius: 150px;
  }
 
  /* feature part-end */
@@ -150,8 +161,9 @@
      height: 300px;
  }
 
+ /* hot-deal-part-end */
 
- /* hot-part-end */
+
  /* insta-start */
  .instragram-part-container {
      display: flex;
@@ -165,42 +177,38 @@
      width: 250px;
      border-radius: 15px;
  }
- .get-deals-container{
-    background-image: url(/banner/slider.png);
-    height: 30vh;
-    text-align: center;
-    margin: 25px 120px;
-    padding: 15px;
-    border-radius: 15px;
- }
- .mail-input{
-    height: 20px;
-    width: 500px;
-    border: none;
-    padding: 25px;
-    margin-top: 15px;
-    border-radius: 15px;
-    box-shadow: 1px 5px 5px 5px;
- }
- .mail-input-1{
-    height: 70px;
-    border: none;
-    padding: 25px;
-    margin-top: 15px;
-    border-radius: 15px;
-    background-color: rgb(29, 2, 7);
-    color: rgb(7, 5, 5);
-    box-shadow: 1px 5px 5px 5px;
-   
 
+ .get-deals-container {
+     background-image: url(/banner/slider.png);
+     height: 30vh;
+     text-align: center;
+     margin: 25px 120px;
+     padding: 15px;
+     border-radius: 15px;
  }
 
+ .mail-input {
+     height: 20px;
+     width: 500px;
+     border: none;
+     padding: 25px;
+     margin-top: 15px;
+     border-radius: 15px;
+     box-shadow: 1px 5px 5px 5px;
+ }
 
- /* .box-1{
-    height: 300px;
-    width: 200px;
-    border: 2px solid green;
-} */
+ .mail-input-1 {
+     height: 70px;
+     border: none;
+     padding: 25px;
+     margin-top: 15px;
+     border-radius: 15px;
+     background-color: rgb(29, 2, 7);
+     color: rgb(7, 5, 5);
+     box-shadow: 1px 5px 5px 5px;
+
+
+ }
 
  /* inst-end */
  /* get deals-part start */
@@ -230,8 +238,3 @@
  }
 
  /* footer part end */
-
-
- .third-part-container{
-    background-image: url();
- }
