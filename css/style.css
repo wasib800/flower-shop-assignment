@@ -16,8 +16,7 @@
      font: 1.2em sans-serif;
  }
 
- .right-nav,
- ul {
+ .right-nav, ul {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -25,16 +24,15 @@
      list-style: none;
  }
 
- li,
- a {
+ li,a {
      text-decoration: none;
      margin: 10px;
      color: white;
  }
 
  .btn-log-primary {
-     height: 40px;
-     width: 100px;
+     height: 50px;
+     width: 120px;
      background-color: crimson;
      color: white;
      border: none;
@@ -68,8 +66,8 @@
  }
 
  .btn-primary {
-     height: 40px;
-     width: 100px;
+     height: 50px;
+     width: 150px;
      background-color: crimson;
      color: white;
      border: none;
