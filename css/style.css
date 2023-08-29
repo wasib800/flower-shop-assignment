@@ -177,7 +177,7 @@
  }
 
  .get-deals-container {
-     background-image: url(banner/slider.png);
+     background-image: url(/images/slider.png);
      height: 30vh;
      text-align: center;
      margin: 25px 120px;
